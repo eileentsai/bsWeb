@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bs的樣式表 -->
+    <link rel="stylesheet" href="./css/bootstrap-4.0.0.css">
+    <!-- BS的ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css">
+    <!-- 自己撰寫的CSS -->
+    <style>
+        h1{
+            /* 水平置中 */
+            text-align: center;
+        }
+        p{
+            /* 左右對齊 */
+            text-align: justify;
+        }
+        i{
+            color: blue;
+            margin-right: 10px;
+            font-size: 5rem;
+        }
+        /* 文字背景區 */
+        .col{
+            background-color: rgb(255, 255, 255, 0.5);
+            border-radius: 50px;
+            padding: 50px;
+        }
+        #home{background-image: url("./images/photo7.jpg");}
+        #About{background-image: url("./images/photo6.jpg");}
+        #CIS{background-image: url("./images/photo3.jpg");}
+        #GRAPHIC{background-image: url("./images/photo2.jpg");}
+        #WEB{background-image: url("./images/photo5.jpg");}
+        #DRAW{background-image: url("./images/photo4.jpg");}
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        /* 各區共同背景相關設定 */
+        section{
+            width: 68%;
+            margin: auto;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+            padding-top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="./images/LOGO.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- mr-auto:右邊留白(靠左) -->
+            <!-- ml-auto:右邊留白(靠右) -->
+            <!-- mx-auto:右邊留白(置中) -->
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#About">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#CIS">CIS</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#GRAPHIC">Graphic</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#WEB">Web</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link js-scroll-trigger" href="#DRAW">Draw</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- 選單各區 -->
+    <!-- HOME -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-house-heart-fill"></i>HOME</h1>
+                    <P>女子設計(HOW DESIGN)是一家視覺設計品牌的工作室，以平面設計為主，強調創新、純真、慈愛。當你心中有疑惑(HOW?)不知該往哪個方向，HOW DESIGN會敞開雙手，指引你通往好的道路前進。因此在標誌設計上，以鹿(路的諧音)為設計主軸，將創辦人手寫英文直行排列，添加鹿角與尾巴，並將標誌配上鮮明的紅色、藍色與黃色，希望能呈現出女子設計的創新、純真與慈愛。</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-emoji-smile-fill"></i>ABOUT</h1>
+                    <P>●畢業於東海大學化學工程學系碩士班<br>
+                       ●2009/1-2023/3(從事綠能產業研發工作)，曾參與多個政府相關專案執行<br>
+                       ●2023年7月14日至2023年10月3日受訓於健行科大視覺設計及數位行銷人才培訓班第01期，讓我具備了更全面的設計能力與行銷知識<br>
+                       ●具備Adobe Photoshop、illustrator、InDesign軟體操作設計能力<br>
+                       ●具備基礎前端網頁使用VSCod，撰寫HTML與CSS<br>
+                       為人謙虛、敬業、認真且樂於溝通，有較強的組織能力與團隊精神；個性開朗隨和、樂觀上進、學習力強；培養終身學習汲取新知的職場態度。
+                    </P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CIS -->
+    <section id="CIS">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-buildings-fill"></i>CIS</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, possimus aspernatur mollitia recusandae quaerat illum? Ducimus provident, dolores, veniam, tenetur atque asperiores quas tempore qui velit dolore voluptatum temporibus nulla perspiciatis consectetur nesciunt assumenda! Animi soluta voluptatum, aliquid in eveniet fugit, cupiditate, corporis expedita ipsum esse non corrupti numquam ratione architecto consequuntur facilis dolorem porro quidem pariatur provident possimus? Cumque quisquam quis quibusdam minus molestias eum et, est consectetur nesciunt possimus nulla deleniti neque ea repudiandae, minima nisi sapiente eius ipsum, eligendi quaerat. Recusandae nisi unde autem debitis ullam magni, rem repudiandae odio in consequuntur nemo iusto maiores nulla. Voluptates?</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GRAPHIC -->
+    <section id="GRAPHIC">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="bi bi-book-half"></i>GRAPHIC</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, possimus aspernatur mollitia recusandae quaerat illum? Ducimus provident, dolores, veniam, tenetur atque asperiores quas tempore qui velit dolore voluptatum temporibus nulla perspiciatis consectetur nesciunt assumenda! Animi soluta voluptatum, aliquid in eveniet fugit, cupiditate, corporis expedita ipsum esse non corrupti numquam ratione architecto consequuntur facilis dolorem porro quidem pariatur provident possimus? Cumque quisquam quis quibusdam minus molestias eum et, est consectetur nesciunt possimus nulla deleniti neque ea repudiandae, minima nisi sapiente eius ipsum, eligendi quaerat. Recusandae nisi unde autem debitis ullam magni, rem repudiandae odio in consequuntur nemo iusto maiores nulla. Voluptates?</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WEB -->
+    <section id="WEB">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="fas fa-tablet-alt"></i>WEB</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, possimus aspernatur mollitia recusandae quaerat illum? Ducimus provident, dolores, veniam, tenetur atque asperiores quas tempore qui velit dolore voluptatum temporibus nulla perspiciatis consectetur nesciunt assumenda! Animi soluta voluptatum, aliquid in eveniet fugit, cupiditate, corporis expedita ipsum esse non corrupti numquam ratione architecto consequuntur facilis dolorem porro quidem pariatur provident possimus? Cumque quisquam quis quibusdam minus molestias eum et, est consectetur nesciunt possimus nulla deleniti neque ea repudiandae, minima nisi sapiente eius ipsum, eligendi quaerat. Recusandae nisi unde autem debitis ullam magni, rem repudiandae odio in consequuntur nemo iusto maiores nulla. Voluptates?</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- DRAW -->
+    <section id="DRAW">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="fas fa-pencil-alt"></i>DRAW</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, possimus aspernatur mollitia recusandae quaerat illum? Ducimus provident, dolores, veniam, tenetur atque asperiores quas tempore qui velit dolore voluptatum temporibus nulla perspiciatis consectetur nesciunt assumenda! Animi soluta voluptatum, aliquid in eveniet fugit, cupiditate, corporis expedita ipsum esse non corrupti numquam ratione architecto consequuntur facilis dolorem porro quidem pariatur provident possimus? Cumque quisquam quis quibusdam minus molestias eum et, est consectetur nesciunt possimus nulla deleniti neque ea repudiandae, minima nisi sapiente eius ipsum, eligendi quaerat. Recusandae nisi unde autem debitis ullam magni, rem repudiandae odio in consequuntur nemo iusto maiores nulla. Voluptates?</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- js -->
+    <!-- jQuery -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <!-- 捲動主程式 -->
+    <script src="./js/freelancer.min.js"></script>
+    <!-- 轉場主程式 -->
+    <script src="./js/jquery.easing.min.js"></script>
+    <!-- bs主程式 -->
+    <script src="./js/bootstrap-4.0.0.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+
+</html>
